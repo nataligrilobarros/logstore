@@ -1,0 +1,22 @@
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <div class="menu-logo ">
+        <i class="fa-solid fa-bars icon"></i>
+        <div class="titles">
+          <a routerLink="/home"> 
+              <h1>Movies</h1>
+            <p>Filmes à vontade </p>
+          </a>
+        </div>
+      </div>
+      <div class = "box-busca">
+        <input class="form-control pesquisar" placeholder="Pesquisar filmes..." [(ngModel)]="valorPesquisa">
+        <button class="btn-busca btn btn-outline-success" type="button" (click)="pesquisar()">Procurar</button>
+    </div>
+    </div>
+
+  </div>
+</div>
